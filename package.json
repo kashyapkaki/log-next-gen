@@ -1,6 +1,6 @@
 {
   "name": "log-next-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Next Generation Console Logger. This is a wrapper for console log for modern logging.",
   "main": "index.js",
   "scripts": {
