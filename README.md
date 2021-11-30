@@ -24,7 +24,7 @@ In ES6,
 import { log } from "log-next-gen";
 ```
 
-1. pass Array as argument
+- pass Array as argument
 
 ```
 const users = [
@@ -43,7 +43,7 @@ Output as below
 
 ![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/ArrayOutput.PNG?raw=true)
 
-2. pass Object as argument
+- pass Object as argument
 
 ```
 const item = {
@@ -56,7 +56,7 @@ Output as below
 
 ![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/ObjectCapture.PNG?raw=true)
 
-3. Styled logging
+- Styled logging
 
 ```
 log("This is styled message", true);
@@ -65,7 +65,7 @@ Output as below
 
 ![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/StyledMsg.PNG?raw=true)
 
-4. Custom Styled logging
+- Custom Styled logging
 
 > You can pass your own styles as third argument
 
