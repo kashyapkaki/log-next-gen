@@ -46,17 +46,11 @@ Output as below
 pass Object as argument
 
 ```
-const users = [
-  {
-    name: "John",
-    location: "London",
-  },
-  {
-    name: "Micheal",
-    location: "USA",
-  },
-];
-log(users);
+const item = {
+  name: "apple",
+  type: "fruit",
+};
+log(item);
 ```
 Output as below
 
