@@ -39,6 +39,8 @@ const users = [
 ];
 log(users);
 ```
+Output as below
+![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/ArrayOutput.PNG?raw=true)
 
 pass Object as argument
 
