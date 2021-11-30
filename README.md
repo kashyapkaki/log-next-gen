@@ -90,7 +90,7 @@ Output as below
 
 ![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/customStyleMsg.PNG?raw=true)
 
-## assertion Usage
+## Assertion Usage
 
 In ES5,
 
@@ -110,7 +110,7 @@ import { assertion } from "log-next-gen";
 assertion(3 % 2 == 0, "number is not even number");
 ```
 
-## execution time Usage
+## Execution time Usage
 
 In ES5,
 
