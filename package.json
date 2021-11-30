@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kashyapkaki/log-next-gen.git"
+  },
   "keywords": [
     "logger",
     "consolelog",
