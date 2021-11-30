@@ -24,7 +24,7 @@ In ES6,
 import { log } from "log-next-gen";
 ```
 
-- pass Array as argument
+- Pass Array as argument
 
 ```
 const users = [
@@ -43,7 +43,7 @@ Output as below
 
 ![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/ArrayOutput.PNG?raw=true)
 
-- pass Object as argument
+- Pass Object as argument
 
 ```
 const item = {
@@ -124,7 +124,7 @@ In ES6,
 import { execTime } from "log-next-gen";
 ```
 
-- call start and end functions between the code to calculate execution time
+- Call start and end functions between the code to calculate execution time
 
 ```
 execTime.start();
@@ -135,7 +135,7 @@ setTimeout(function () {
 
 ## Options
 
-log-next-gen supports the below options, which are optional:
+`log-next-gen` supports the below options, which are optional:
 
 - _isStyled_ - true | false (Defaults to false)
 - _styles_ - string (Pass styles as string)
