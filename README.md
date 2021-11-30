@@ -24,7 +24,7 @@ In ES6,
 import { log } from "log-next-gen";
 ```
 
-pass Array as argument
+1. pass Array as argument
 
 ```
 const users = [
@@ -43,7 +43,7 @@ Output as below
 
 ![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/ArrayOutput.PNG?raw=true)
 
-pass Object as argument
+2. pass Object as argument
 
 ```
 const item = {
@@ -56,7 +56,7 @@ Output as below
 
 ![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/ObjectCapture.PNG?raw=true)
 
-Styled logging
+3. Styled logging
 
 ```
 log("This is styled message", true);
@@ -65,7 +65,7 @@ Output as below
 
 ![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/StyledMsg.PNG?raw=true)
 
-Custom Styled logging
+4. Custom Styled logging
 
 > You can pass your own styles as third argument
 
@@ -104,7 +104,7 @@ In ES6,
 import { assertion } from "log-next-gen";
 ```
 
-Pass condition as first argument and assertion fail message as second argument
+- Pass condition as first argument and assertion fail message as second argument
 
 ```
 assertion(3 % 2 == 0, "number is not even number");
@@ -124,7 +124,7 @@ In ES6,
 import { execTime } from "log-next-gen";
 ```
 
-call start and end functions between the code to calculate execution time
+- call start and end functions between the code to calculate execution time
 
 ```
 execTime.start();
