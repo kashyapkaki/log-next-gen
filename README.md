@@ -58,12 +58,18 @@ const users = [
 ];
 log(users);
 ```
+Output as below
+
+![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/ObjectCapture.PNG?raw=true)
 
 Styled logging
 
 ```
 log("This is styled message", true);
 ```
+Output as below
+
+![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/StyledMsg.PNG?raw=true)
 
 Custom Styled logging
 
@@ -86,6 +92,9 @@ var styles = [
 
 log("This is custom styled message", true, styles.join(";"));
 ```
+Output as below
+
+![alt text](https://github.com/kashyapkaki/log-next-gen/blob/master/output/customStyleMsg.PNG?raw=true)
 
 ## assertion Usage
 
